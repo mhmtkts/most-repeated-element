@@ -24,9 +24,9 @@ recursive-number-algo
 3. Navigate to the project directory.
 4. Run the application using the command:
 
-   ```
-   go run src/main.go
-   ```
+```bash
+go run src/main.go
+```
 
 ## Algorithm Details
 
@@ -37,13 +37,14 @@ Example:
 input := []string{"apple", "pie", "apple", "red", "red", "red"}
 result := analyzer.FindMostRepeated(input)
 // Output: "red"
+```
 
 ## Testing
 
 Unit tests for the function are located in  `analyzer_test.go.`. You can run the tests using the command:
 
-```
-go test ./src/tests -v
+```bash
+go test src/tests -v
 ```
 
 ## Contribution
